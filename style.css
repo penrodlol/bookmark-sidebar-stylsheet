@@ -1,16 +1,19 @@
 section#sidebar {
-    border: solid 10px #050A0E !important;
+    border: solid 5px rgba(37, 37, 37, 0.89);
+    background-image: url("https://media.giphy.com/media/l0MYPZIquRw0eCgr6/giphy.gif") !important;
+    background-repeat: no-repeat !important;
+    background-size: 100vh !important;
     font-weight: bold;
-    }
-    
-     section#sidebar > div.scrollBox > ul a.separator > span.label::after {
-    background-color:#B5EAD7 !important;
-    }
-    
-    section#sidebar > div.scrollBox > ul a.separator > span.label {
-    color:#C4A8FF !important;
-    }
-    
-    section#sidebar > div.scrollBox > ul a.dir > span.icon::before, section#sidebar > div.scrollBox > div.pinned > ul a.dir > span.icon::before  {
-    background-color:#F4EFC9;
-    }
+}
+
+section#sidebar>div.scrollBox>ul a.separator>span.label::after {
+    background-color: white !important;
+}
+
+section#sidebar>div.scrollBox>ul a.separator>span.label {
+    color: #C4A8FF !important;
+}
+
+section#sidebar>div.scrollBox>ul a.dir>span.icon::before, section#sidebar>div.scrollBox>div.pinned>ul a.dir>span.icon:before {
+    background-color: #F4EFC9;
+}
