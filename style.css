@@ -1,6 +1,6 @@
 section#sidebar {
     border: solid 5px rgba(37, 37, 37, 0.89);
-    background-image: url("https://media.giphy.com/media/l0MYPZIquRw0eCgr6/giphy.gif") !important;
+    background-image: url("https://media.giphy.com/media/l9UZwz7fhHzkJkAqJ7/giphy.gif") !important;
     background-repeat: no-repeat !important;
     background-size: 100vh !important;
     font-weight: bold;
@@ -16,4 +16,11 @@ section#sidebar>div.scrollBox>ul a.separator>span.label {
 
 section#sidebar>div.scrollBox>ul a.dir>span.icon::before, section#sidebar>div.scrollBox>div.pinned>ul a.dir>span.icon:before {
     background-color: #F4EFC9;
+}
+
+body.dark section#sidebar>div.scrollBox>ul a.separator>span.label[data-name]::before {
+    background: black;
+    box-shadow: 0 0 0 10px transparent;
+    padding: 5px 10px;
+    border: solid 1px white;
 }
