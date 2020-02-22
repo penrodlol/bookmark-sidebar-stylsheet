@@ -1,26 +1,33 @@
 section#sidebar {
     border: solid 5px rgba(37, 37, 37, 0.89);
-    background-image: url("https://media.giphy.com/media/l9UZwz7fhHzkJkAqJ7/giphy.gif") !important;
-    background-repeat: no-repeat !important;
+    background-image: url("https://i.pinimg.com/originals/f0/eb/e4/f0ebe49f0a55e386981c027fd0140205.jpg") !important;
+    background-repeat: repeat !important;
     background-size: 100vh !important;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+span.label {
+    font-size: 15px;
 }
 
 section#sidebar>div.scrollBox>ul a.separator>span.label::after {
-    background-color: white !important;
+    background-color: black !important;
+    padding: 2px;
 }
 
 section#sidebar>div.scrollBox>ul a.separator>span.label {
-    color: #C4A8FF !important;
+    color: white !important;
 }
 
 section#sidebar>div.scrollBox>ul a.dir>span.icon::before, section#sidebar>div.scrollBox>div.pinned>ul a.dir>span.icon:before {
-    background-color: #F4EFC9;
+    background-color: black;
 }
 
 body.dark section#sidebar>div.scrollBox>ul a.separator>span.label[data-name]::before {
-    background: black;
+    background-image: url("https://i.pinimg.com/originals/f0/eb/e4/f0ebe49f0a55e386981c027fd0140205.jpg") !important;
     box-shadow: 0 0 0 10px transparent;
     padding: 5px 10px;
-    border: solid 1px white;
+    border: solid 2px black;
+    border-radius: 5px;
+    color: black;
 }
